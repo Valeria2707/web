@@ -1,0 +1,28 @@
+.block--header{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: rgb(230, 145, 173);
+    margin-bottom: 50px;
+}
+
+.block--header-text{
+    text-align: center;
+}
+
+.block--lab{
+    padding: 0 10px 50px 10px;
+}
+
+.block--button{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.block--description{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}

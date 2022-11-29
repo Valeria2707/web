@@ -1,0 +1,53 @@
+table{
+    table-layout: fixed;
+    table-layout: auto;
+    border: 1px solid black;
+}
+
+.block-one{
+    width: 245px;
+    height: 70px;
+    background-color: yellow;
+}
+
+.block-two{
+    width: 85px;
+    height: 400px;
+    background-color: blue;
+}
+
+.block-three{
+    background-color: red;
+    width: 65px;
+    height: 50px;
+    border: 25px solid white;
+    padding: 0;
+}
+
+.block-four{
+    background-color: antiquewhite;
+    width: 100px;
+    height: 200px;
+    border-left: 25px solid white;
+
+}
+
+.block-five{
+    background-color: blue;
+    border: 25px solid white;
+    width: 100px;
+    height: 250px;
+    border-top: 0;
+}
+
+.block-six{
+    background-color: red;
+    border-left: 25px solid white;
+    border-bottom: 25px solid white;
+}
+
+
+.var{
+    color: red;
+    text-align: center;
+}

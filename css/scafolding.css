@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightpink;
+}
+
+.textarea{
+    width: 700px;
+}
+
+.text{
+    display: none;
+}
+
+.link--description{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#div1{
+    display: none;
+  }
+
+#div2{
+    display: none;
+  }
+
+#div3{
+    display: none;
+  }
+
+#div4{
+    display: none;
+  }
+
+#div5{
+    display: none;
+  }

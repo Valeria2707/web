@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Main page</title>
+</head>
+<body>
+    <header class="block--header">
+        <div class="block--header-text">
+            <h1>
+                Звіти з лабораторних робіт З дисципліни "ІНТЕРНЕТ-ТЕХНОЛОГІЇ та ПРОЕКТУВАННЯ WEB-ЗАСТОСУВАНЬ"
+            </h1>
+            <h2>
+                Студентки групи ІС-13 Завадецької Валерії Ігорівни
+            </h2>
+        </div>
+        <img src="./image/my-photo.jpg" alt="my photo" height="210" width="150" class="image--my">
+    </header>
+    <div class="block--lab">
+        <form class="nav">
+            <input type="button" value="Лаб. р. №1" onmousedown="viewDiv1()" class="nav__link">
+            <input type="button" value="Лаб. р. №2" onmousedown="viewDiv2()" class="nav__link">
+            <input type="button" value="Лаб. р. №3" onmousedown="viewDiv3()" class="nav__link">
+            <input type="button" value="Лаб. р. №4" onmousedown="viewDiv4()" class="nav__link">
+            <input type="button" value="Лаб. р. №5" onmousedown="viewDiv5()" class="nav__link">
+            <input type="button" value="Лаб. р. №6" onmousedown="viewDiv6()" class="nav__link">
+            <input type="button" value="Лаб. р. №7" onmousedown="viewDiv7()" class="nav__link">
+            <input type="button" value="Лаб. р. №8" onmousedown="viewDiv8()" class="nav__link">
+            <input type="button" value="Лаб. р. №9" onmousedown="viewDiv9()" class="nav__link">
+        </form>
+    </div>
+    <div class="block--description block--lab">
+        <div class="block--button" id="div1">
+            <button class="button--description" onclick="push(this, 'put', item1)">
+                Опис предметного середовища
+            </button>
+            <button class="button--description" onclick="push(this, 'put', item2)">
+                Тема, мета, місце розташування лаби
+            </button>
+            <button class="button--description" onclick="push(this, 'put', item3)">
+                HTML-код
+            </button>
+            <button class="button--description" onclick="push(this, 'put', item4)">
+                Висновок
+            </button>
+            <a href="./lab1/lab1.html" class="button--description link--description">Силка</a>
+        </div>
+        <!--2-->
+        <div class="block--button" id="div2">
+            <button class="button--description" id="fs" onclick="push(this, 'put', item2_1)">
+                Постановка задачі 2 лаб
+            </button>
+            <button class="button--description" onclick="push(this, 'put', item2)">
+                Тема, мета, місце розташування лаби
+            </button>
+            <button class="button--description" onclick="push(this, 'put', item2_2)">
+                Списки
+            </button>
+            <button class="button--description" onclick="push(this, 'put', item2_3)">
+            Ідентифікатори
+            </button>
+            <button class="button--description" onclick="push(this, 'put', item2_4)">
+             Відступи
+            </button>
+          <button class="button--description" onclick="push(this, 'put', item2_5)">
+            Плаваючі елементи
+            </button>  
+            <button class="button--description" onclick="push(this, 'put', item2_6)">
+            Селектори
+            </button>
+            <a href="./lab2/lab2.html" class="button--description link--description">Силка</a>
+        </div>
+        <!--3-->
+        <div class="block--button" id="div3">
+            <button class="button--description" id="fs" onclick="push(this, 'put', item3_1)">
+                Тема та мета
+            </button>
+            <button class="button--description" onclick="push(this, 'put', item3_2)">
+                 Завдання 1 - HTML-код
+            </button>
+            <a href="../../project/index.html" class="button--description link--description"> Завдання 1 - посилання</a>
+            <button class="button--description" onclick="push(this, 'put', item3_3)">
+                Завдання 2 фіксована табличка - код
+            </button>
+            <a href="./lab3/lab3_1.html" class="button--description link--description"> Завдання 2 фіксована табличка - посилання</a>
+            <button class="button--description" onclick="push(this, 'put', item3_4)">
+                Завдання 2 гумова табличка - код
+            </button>
+            <a href="./lab3/lab3_1.2.html" class="button--description link--description"> Завдання 2 гумова табличка - посилання</a>
+            <button class="button--description" onclick="push(this, 'put', item3_5)">
+                Завдання 2 фіксована блочна верстка - код 
+            </button>
+            <a href="./lab3/lab3_2.html" class="button--description link--description"> Завдання 2 фіксована блочна верстка - посилання</a>
+            <button class="button--description" onclick="push(this, 'put', item3_6)">
+                Завдання 2 гумова блочна верстка - код 
+            </button>
+            <a href="./lab3/lab3_2.2.html" class="button--description link--description"> Завдання 2 гумова блочна верстка - посилання</a>
+            <button class="button--description" onclick="push(this, 'put', item3_7)">
+                Завдання 3 флексбокси - код 
+            </button>
+            <a href="./lab3/lab3_3.html" class="button--description link--description">Завдання 3 флексбокси - посилання </a>
+            <button class="button--description" onclick="push(this, 'put', item3_8)">
+                Висновок 
+            </button>
+            </div>
+        <!--4-->
+        <div class="block--button" id="div4">
+            <button class="button--description" id="fs" onclick="push(this, 'put', item4_1)">
+                Тема та мета
+            </button>
+            <button class="button--description" id="fs" onclick="push(this, 'put', item4_2)">
+                Завдання
+            </button>
+            <button class="button--description" onclick="push(this, 'put', item4_3)">
+                 Завдання 1 - Код
+            </button>
+            <a href="./lab4/index1.html" class="button--description link--description"> Завдання 1 - посилання</a>
+            <button class="button--description" onclick="push(this, 'put', item4_4)">
+                Завдання 2 - код
+            </button>
+            <a href="./lab4/index.html" class="button--description link--description"> Завдання 2 - посилання</a>
+            <a href="../../project/index.html" class="button--description link--description">Сайт - посилання </a>
+            <button class="button--description" onclick="push(this, 'put', item4_5)">
+                Висновок 
+            </button>
+            </div>
+            <!--5-->
+            <div class="block--button" id="div5">
+                <button class="button--description" id="fs" onclick="push(this, 'put', item5_1)">
+                    Тема та мета
+                </button>
+                <button class="button--description" id="fs" onclick="push(this, 'put', item5_2)">
+                    Завдання 1 - Динамічні елементи
+                </button>
+                <a href="./lab 5/index.html" class="button--description link--description"> Завдання 1 - посилання</a>
+                <button class="button--description" onclick="push(this, 'put', item5_3)">
+                     Завдання 2 - кнопки соціальних мереж
+                </button>
+                <a href="./lab 5/index.html" class="button--description link--description"> Завдання 2 - посилання</a>
+                <button class="button--description" onclick="push(this, 'put', item5_4)">
+                    Завдання 3 - інформери
+                </button>
+                <a href="./lab 5/clock/index.html" class="button--description link--description"> Завдання 3 - посилання годинник</a>
+                <a href="./lab 5/Currency/index.html" class="button--description link--description"> Завдання 3 - посилання курс валют</a>
+                <button class="button--description" onclick="push(this, 'put', item5_5)">
+                    Завдання 4 - мультимедіа
+                </button>
+                <a href="./lab 5/multi/video/index.html" class="button--description link--description"> Завдання 4 - посилання відео</a>
+                <a href="./lab 5/multi/image/index.html" class="button--description link--description"> Завдання 4 - посилання курс фото</a>
+                <button class="button--description" onclick="push(this, 'put', item5_6)">
+                    Висновок 
+                </button>
+                </div>
+        <!--\-->
+        <textarea class="textarea" id="put"></textarea>
+    </div>
+    <script type="text/javascript" src="./app.js"></script>
+</body>
+</html>

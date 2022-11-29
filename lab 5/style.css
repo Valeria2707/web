@@ -1,0 +1,94 @@
+label {
+    display: inline-block;
+    width: 5em;
+  }
+
+.share_this {
+    margin-top:15px;width:100%;
+  }
+.social_share{
+    float:right;
+    margin-left:5px;
+    color:#fff;
+    padding:2px;
+  }
+.social_share:hover{
+    cursor:pointer;
+  }
+.vk:hover{
+    background:#ff6600;
+  }
+.fb:hover{
+    background:#ff6600;
+  }
+.tw:hover{
+    background:#ff6600;
+  }
+.gg:hover{
+    background:#ff6600;
+  }
+.ok:hover{
+    background:#ff6600;
+  }
+.mr:hover{
+    background:#ff6600;
+  }
+.lj:hover{
+    background:#ff6600;
+  }
+.vk{
+    background:#339900;
+  }
+.fb{
+    background:#339900;
+  }
+.tw{
+    background:#339900;
+  }
+.gg{
+    background:#339900;
+  }
+.ok{
+    background:#339900;
+  }
+.mr{
+    background:#339900;
+  }
+.lj{
+    background:#339900;
+  }
+  .font-color {
+    background: linear-gradient(to bottom, #2980b9, #2c3e50);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  
+  .content div {
+    padding: 5px 0;
+  }
+  
+  .timeDiv {
+    position: relative;
+  }
+  
+  #time {
+    text-shadow: 0 0 55px #2980b9;
+    font-size: 4.5rem;
+  }
+  
+  #med {
+    position: absolute;
+    top: 15px;
+    right: 0;
+  }
+  
+  .dayDiv {
+    display: flex;
+  }
+  
+  .dayDiv span {
+    font-size: 0.9rem;
+    opacity: 0.4;
+    margin: 0 4px;
+  }
